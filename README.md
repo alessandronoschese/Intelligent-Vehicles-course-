@@ -11,6 +11,7 @@ The goal is to detect pedestrians in 3D space using only a single monocular came
 Recovering 3D positions from 2D images is an ill-posed problem: a single camera cannot directly measure depth. The core challenge is to lift 2D detections into 3D in a physically meaningful way.
 
 ## Approach
+<img width="817" height="519" alt="image" src="https://github.com/user-attachments/assets/6cfe5d39-8b95-4481-be70-e40f147d9156" />
 
 The pipeline combines a learned 2D detector with a geometric 3D lifting step:
 
